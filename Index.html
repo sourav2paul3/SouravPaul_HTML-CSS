@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Login Page</title>
+	<link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+<body>
+	<div class="centerdiv">
+		<h1>Sign in</h1>
+		<div class="Upper-box">
+		<form>
+			<div>
+			<input type="text" name="Username" class="inputbox" placeholder="Username">
+		<br>
+			<input type="Password" name="Password" class="inputbox" placeholder="Password">
+		<br>
+			<button onclick="Signin()" type="Submit" class="Signin">Sign In</button>
+			</div>
+		</form>
+		
+		<form>
+			<a href="#" class="Forget">Forgot Your Password?</a>
+			<a href="#" class="Register">Register</a>
+		</form>
+		</div>
+		
+		<hr>
+		<p class="OR">OR</p>
+		
+		<br>
+		<div class="Lower-box">
+		<form>
+			<button onclick="Signin()" type="Submit" class="Facebook">f</button>	
+			<button onclick="Signin()" type="Submit" class="Gmail">g</button>	
+			<button onclick="Signin()" type="Submit" class="EPAM">EPAM Login</button>	
+		</div>
+		</form>
+<script>
+	function Signin() {
+	alert("You have successfully logged in.");
+}
+</script>
+	</div>
+</body>
+</html> 

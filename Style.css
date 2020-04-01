@@ -1,0 +1,101 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.centerdiv{
+	width:400px;
+	height:550px;
+	position: absolute;
+	top:50%;
+	left:50%;
+	background-color:none;
+	transform: translate(-50%,-50%);
+	box-shadow:0 1px 6px rgba(0,0,0,0.3),0 1px 4px rgba(0,0,0,0.3);
+}
+
+h1{
+	font-family:"impact";
+	background-color:DeepSkyBlue;
+	text-align:center;
+	color:white;
+	text-transform:uppercase;
+	font-size:2em;
+	margin-top:10px;
+	margin-bottom:30px;
+}
+
+.inputbox{
+	width:calc(100% - 40px);
+	height:30px;
+	display:block;
+	margin:auto;
+	padding:0 10px;
+	border-radius:5px;
+	box-sizing:border-box;
+}
+
+button{
+	width:calc(100% - 40px);
+	height:30px;
+	display:block;
+	margin:auto;
+	padding:0 10px;
+	border:none;
+	border-radius:5px;
+	font-size:20px;
+	color:white;	
+}
+
+.Signin{
+	background-color:DeepSkyBlue;
+	font-family:"impact";
+	text-transform:uppercase;
+	margin-bottom:10px;
+}
+.Forget{
+	margin-left:20px;
+	font-size:15px;
+}
+
+.Register{
+	margin-left:165px;
+	font-size:15px;
+}
+
+.Facebook{
+	background-color:DodgerBlue;
+	margin-bottom:10px;
+	height:50px;
+	font-size:30px;
+}
+
+.Gmail{
+	font-family:"Trebuchet MS";
+	background-color:OrangeRed;
+	height:50px;
+	margin-bottom:10px;
+	font-size:30px;
+}
+
+.EPAM{
+	font-family:"impact";
+	height:50px;
+	letter-spacing:2px;
+	background-color:YellowGreen;
+	text-transform:uppercase;
+	margin-bottom:10px;
+}
+
+hr{
+	margin-top:60px;
+	width:80%;
+	margin-left:10%;
+	margin-bottom:20px;
+}
+.OR{
+	background:#fff;
+	width:30px;
+	margin:-30px auto 12px;
+	text-align:center;
+}
