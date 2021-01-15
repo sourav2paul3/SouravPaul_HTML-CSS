@@ -11,7 +11,7 @@
 		<div class="Upper-box">
 		<form>
 			<div>
-			<input type="text" name="Username" class="inputbox" placeholder="Username">
+			<input type="text" id="Username" class="inputbox" placeholder="Username">
 		<br>
 			<input type="Password" name="Password" class="inputbox" placeholder="Password">
 		<br>
@@ -38,7 +38,11 @@
 		</form>
 <script>
 	function Signin() {
-	alert("You have successfully logged in.");
+	alert("You have successfully logged in.");}
+	function validaton(){
+	var username=document.getElementById("Username");
+	if(username.value=="")
+		alert("Bhaaag");
 }
 </script>
 	</div>
